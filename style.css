@@ -1,0 +1,113 @@
+/* Importación de la fuente */
+@import url("https://fonts.googleapis.com/css2?family=Inika&display=swap");
+
+/* Cambio de Color del fondo de pantalla */
+body {
+  background-image: url("./assets/img/Captura1.PNG");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  }
+
+/* Se inserta la fuente importada en todo el texto de la página */
+* { font-size: 100%;font-family: 'Inika', serif;}
+
+
+
+/* Modificación del Titulo de la pagina*/
+.imagen
+{
+ text-align:center;
+ display:block;
+}
+
+body{
+  margin: 5%;
+}
+
+/* Modificación de imagen final */
+.imagenfin
+{
+ text-align:center;
+ display:block;
+}
+
+.text{
+  text-align: center;
+}
+
+.cuadro2{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  position: relative;
+  top: -109px;
+  right: -256px;
+}
+
+.Logros{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 66px;
+  position: relative;
+  right: -320px;
+  top: -80px;
+}
+
+.info2{
+  position: relative;
+  margin-right: 45%;
+  right: -224px;
+  top: 130px;
+}
+
+.info{
+  display: block;
+  position: absolute;
+  margin-right: 80%;
+  top: 110%;
+}
+
+.Titulos{
+  position: relative;
+  right: -343px;
+}
+
+.ExperienciaGeneral{
+  position: relative;
+  right: -343px;
+}
+
+
+
+
+
+
+
+
+
+.telef{
+  position: relative;right: -28px;top: 216px;
+  margin-right: 80%;
+}
+.teleficon{
+  position: relative; top: -22px;right: 31px;
+}
+
+.correo{
+  position: relative;right: -28px;top: 196px;
+  margin-right: 80%;
+}
+.mailicon{
+  position: relative; top: -22px;right: 31px;
+}
+
+.direccion{
+  position: relative;right: -28px;top: 176px;
+  margin-right: 80%;
+}
+.direicon{
+  position: relative; top: -22px;right: 31px;
+}
+
+.DatosDeContacto{
+  position: relative;top: 102px;
+}
